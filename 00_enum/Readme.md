@@ -20,3 +20,7 @@ sudo -l
 ```
 :!sh
 ```
+
+## useful links
+GTFOBins  : unix binaries list
+- https://gtfobins.github.io/#
