@@ -21,6 +21,20 @@ sudo -l
 :!sh
 ```
 
+## namp
+```
+allport scan
+nmap -vv -sV -p- --script vuln TARGETIP
+```
+
+## dirb
+```
+dirb TARGETURL WORDLIST 
+```
+
+
+
+
 ## useful links
 GTFOBins  : unix binaries list
 - https://gtfobins.github.io/#
