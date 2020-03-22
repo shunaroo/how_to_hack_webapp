@@ -51,7 +51,11 @@ gunzip target
 hydra -l bob -P WORDLIST -t 1 -f HOSTNAME http-get /DIR/
 hydra -l bob -P /usr/share/wordlists/rockyou.txt -t 1 -f 10.10.2.215 http-get /protected/
 ```
+## nikto
+```
+nikto -h host:port
 
+```
 
 ## useful links
 GTFOBins  : unix binaries list
