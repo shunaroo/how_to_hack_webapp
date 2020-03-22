@@ -30,9 +30,27 @@ nmap -vv -sV -p- --script vuln TARGETIP
 ## dirb
 ```
 dirb TARGETURL WORDLIST 
+ex :dirb http://hogehoge /usr/share/wordlist/dirbuster/xxxxx.txt
+```
+## zips
+```
+tar.gz
+-zip
+tar -zcvf xxxx.tar.gz directory
+-unzip
+tar -zxvf xxxx.tar.gz
+
+gz
+-unzip
+gunzip target
+
 ```
 
-
+## hydra bruteforce
+```
+hydra -l bob -P WORDLIST -t 1 -f HOSTNAME http-get /DIR/
+hydra -l bob -P /usr/share/wordlists/rockyou.txt -t 1 -f 10.10.2.215 http-get /protected/
+```
 
 
 ## useful links
