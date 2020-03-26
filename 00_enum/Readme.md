@@ -46,6 +46,13 @@ gunzip target
 
 ```
 
+## John
+- hash
+```
+john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt --format=NT
+```
+
+
 ## hydra bruteforce
 ```
 hydra -l bob -P WORDLIST -t 1 -f HOSTNAME http-get /DIR/
