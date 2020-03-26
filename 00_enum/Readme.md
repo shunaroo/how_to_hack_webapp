@@ -60,3 +60,10 @@ nikto -h host:port
 ## useful links
 GTFOBins  : unix binaries list
 - https://gtfobins.github.io/#
+
+
+Metasploit
+- reverse_tcp payload
+  - https://netsec.ws/?p=331
+
+
