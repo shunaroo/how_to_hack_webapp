@@ -66,4 +66,6 @@ Metasploit
 - reverse_tcp payload
   - https://netsec.ws/?p=331
 
+- meterpreter basis
+  - https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
 
