@@ -83,3 +83,8 @@ Metasploit
 - meterpreter basis
   - https://www.offensive-security.com/metasploit-unleashed/meterpreter-basics/
 
+hash
+- hash identifier
+  - https://www.tunnelsup.com/hash-analyzer/
+ - hash resolver
+  - https://crackstation.net/
