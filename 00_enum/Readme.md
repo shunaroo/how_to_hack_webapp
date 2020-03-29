@@ -46,6 +46,13 @@ gunzip target
 
 ```
 
+## hashcat
+```
+
+hashcat -m 0 hases.txt /usr/share/wordlists/rockyou.txt --force
+
+```
+
 ## John
 - hash
 ```
