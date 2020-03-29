@@ -53,6 +53,11 @@ hashcat -m 0 hases.txt /usr/share/wordlists/rockyou.txt --force
 
 ```
 
+## hashidentifier
+```
+hash-identifier
+```
+
 ## John
 - hash
 ```
