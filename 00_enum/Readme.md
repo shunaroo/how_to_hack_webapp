@@ -11,6 +11,12 @@ salt:new passwd:123
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
 
+## scp
+```
+ scp username@remote.example.com:/remote/directory/a.txt /local/directory
+```
+
+
 ## sudo enum
 ```
 sudo -l
