@@ -39,6 +39,10 @@ sudo -l
 ```
 allport scan
 nmap -vv -sV -p- --script vuln TARGETIP
+
+smb-enum
+nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
+
 ```
 
 ## dirb
