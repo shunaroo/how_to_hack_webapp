@@ -47,6 +47,12 @@ ex:
  Get-ChildItem | Sort-Object
 ```
 
+## Get-ChildItem
+list and search files
+```
+Get-ChildItem C:\* -r -Filter "*target*"
+```
+
 
 
 # ref
