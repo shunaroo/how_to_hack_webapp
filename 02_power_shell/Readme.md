@@ -50,7 +50,7 @@ ex:
 ## Get-ChildItem
 list and search files
 ```
-Get-ChildItem C:\* -r -Filter "*target*"
+Get-ChildItem -Path C:\ -Include *.txt -File -Recurse -ErrorAction SilentlyContinue
 ```
 
 
