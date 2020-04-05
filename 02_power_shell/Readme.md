@@ -64,10 +64,14 @@ cat
  ## Get-Location
 pwd
 ```
-
- Get-Location
+Get-Location
 ```
 
+## Test-Path
+check where the path exists
+```
+Test-Path "C:\xxxxx"
+```
 
 # ref
 https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.core/where-object?view=powershell-6
