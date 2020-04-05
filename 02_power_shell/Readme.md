@@ -53,6 +53,11 @@ list and search files
 Get-ChildItem -Path C:\ -Include *.txt -File -Recurse -ErrorAction SilentlyContinue
 ```
 
+## Get-Contet
+cat
+```
+ Get-Content -Path xxxxx
+```
 
 
 # ref
