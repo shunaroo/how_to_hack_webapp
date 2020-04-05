@@ -60,6 +60,16 @@ cat
  Get-Content -Path xxxxx
 ```
 
+## Hash
+```
+Get-FileHash 'target' -Algorithm MD5
+```
+## base64
+```
+$data = Get-Content 'target' 
+[System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($data)) | Out-File -Encoding "ASCII" out.html
+```
+
 
  ## Get-Location
 pwd
