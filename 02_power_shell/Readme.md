@@ -12,6 +12,7 @@ list commands
 Get-Command Verb-*
 ex:
 Get-Command New-*
+Get-command | measure
 ```
 
 ## Get-Member
@@ -57,6 +58,14 @@ Get-ChildItem -Path C:\ -Include *.txt -File -Recurse -ErrorAction SilentlyConti
 cat
 ```
  Get-Content -Path xxxxx
+```
+
+
+ ## Get-Location
+pwd
+```
+
+ Get-Location
 ```
 
 
