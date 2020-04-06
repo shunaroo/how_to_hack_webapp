@@ -48,9 +48,13 @@ ex:
  Get-ChildItem | Sort-Object
 ```
 
-## IP Address
+## Net Environment Address
 ```
+Address
 Get-NetIPAddress
+
+Open port
+Get-NetTCPConnection | Where-Object State -EQ Listen
 ```
 
 ## Get-ChildItem
