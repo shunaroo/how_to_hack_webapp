@@ -62,6 +62,9 @@ Get-Location
 
 check where the path exists
 Test-Path "C:\xxxxx"
+
+grep
+Get-ChildItem C:\* -recurse | Select-String -pattern xxxxx
 ```
 
 
