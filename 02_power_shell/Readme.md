@@ -88,6 +88,9 @@ list user
 Get-LocalUser | Select-Object Name, SID
 
 Get-LocalGroup| Measure-Object
+
+owner
+Get-Acl C:\
 ```
 
 
