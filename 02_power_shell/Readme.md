@@ -74,7 +74,14 @@ $data = Get-Content 'target'
 list user
 ```
 Get-LocalUser
+Get-LocalUser | Select-Object Name, SID
 ```
+
+## Group
+```
+Get-LocalGroup| Measure-Object
+```
+
 
 
  ## Get-Location
