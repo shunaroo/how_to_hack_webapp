@@ -70,6 +70,12 @@ $data = Get-Content 'target'
 [System.Text.Encoding]::ASCII.GetString([System.Convert]::FromBase64String($data)) | Out-File -Encoding "ASCII" out.html
 ```
 
+## Get-LocalUser
+list user
+```
+Get-LocalUser
+```
+
 
  ## Get-Location
 pwd
