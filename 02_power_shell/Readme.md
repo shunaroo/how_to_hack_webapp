@@ -48,6 +48,11 @@ ex:
  Get-ChildItem | Sort-Object
 ```
 
+## IP Address
+```
+Get-NetIPAddress
+```
+
 ## Get-ChildItem
 list and search files
 ```
