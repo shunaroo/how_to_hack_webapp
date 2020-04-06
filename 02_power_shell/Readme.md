@@ -37,6 +37,11 @@ ex:
 Get-ChildItem | Sort-Object
 ```
 
+## process
+```
+Get-Process
+```
+
 ## Net Environment Address
 ```
 Address
