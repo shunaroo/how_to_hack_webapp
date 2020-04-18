@@ -100,6 +100,18 @@ nikto -h host:port
 
 ```
 
+## steg
+```
+steghide extract -sf ./<file to extract>.jpg
+```
+
+## zip crack
+```
+fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt ./file.zip
+```
+
+
+
 ## TIPS
 ```
 cat .bash_history
