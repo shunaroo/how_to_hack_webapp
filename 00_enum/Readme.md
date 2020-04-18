@@ -118,6 +118,8 @@ fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt ./file.zip
 ## TIPS
 ```
 cat .bash_history
+
+find foo -exec whoami \;
 ```
 
 ## useful links
