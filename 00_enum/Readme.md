@@ -49,6 +49,8 @@ nmap -vv -sV -p- --script vuln TARGETIP
 smb-enum
 nmap -p 445 --script=smb-enum-shares.nse,smb-enum-users.nse <ip>
 
+nmap -sT -p port-number -O -sC -sV -T[1-5] -oA output-file-name ip-address
+
 ```
 
 ## dirb
