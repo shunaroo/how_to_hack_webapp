@@ -116,10 +116,13 @@ fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt ./file.zip
 
 ## enum FTPs
 ```
+FTP 
 ftp ip-address
 anonymous/anonymous
 
+NFS
 showmount -e ip-address
+mount ip:/file/path /local/file/path
 
 ```
 
