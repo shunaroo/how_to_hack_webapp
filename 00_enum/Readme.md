@@ -154,6 +154,10 @@ mount ip:/file/path /local/file/path
 ```
 md5sum data.txt
 ```
+## aws
+```
+curl advent-bucket-one.s3.amazonaws.com | xmllint --format -
+```
 
 
 ## TIPS
