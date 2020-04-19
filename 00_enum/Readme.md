@@ -12,6 +12,30 @@ salt:new passwd:123
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
 
+## openSSL
+```
+generate prikey
+openssl genrsa -aes256 -out private.key 8912
+
+generate pubkey
+openssl rsa -in private.key -pubout -out public.key
+
+encrypt
+openssl rsautl -encrypt -pubin -inkey public.key -in plaintext.txt -out encrypted.txt
+
+decrypt
+openssl rsautl -decrypt -inkey private.key -in encrypted.txt -out plaintext.txt
+```
+
+## pgp
+```
+encrypt
+gpg -c data.txt
+
+decrypt
+gpg -d data.txt.gpg
+```
+
 ## scp
 ```
 remote to local
