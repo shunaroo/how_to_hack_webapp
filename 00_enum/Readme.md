@@ -126,6 +126,11 @@ mount ip:/file/path /local/file/path
 
 ```
 
+## hash
+```
+md5sum data.txt
+```
+
 
 ## TIPS
 ```
