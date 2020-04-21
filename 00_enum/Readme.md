@@ -161,6 +161,16 @@ md5sum data.txt
 curl advent-bucket-one.s3.amazonaws.com | xmllint --format -
 ```
 
+## reverse
+```
+r2 -d file-name
+
+analyze
+aa
+view
+pdf @main
+```
+
 
 ## TIPS
 ```
