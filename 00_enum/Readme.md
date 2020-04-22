@@ -201,3 +201,6 @@ hash
   - https://www.tunnelsup.com/hash-analyzer/
  - hash resolver
   - https://crackstation.net/
+  
+ Enum
+ - https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite
