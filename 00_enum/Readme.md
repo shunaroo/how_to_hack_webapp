@@ -12,6 +12,11 @@ salt:new passwd:123
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
 
+# smb
+```
+smbmap
+```
+
 # ssh
 ```
 python /usr/share/john/ssh2john.py id_rsa > id_rsa.hash
