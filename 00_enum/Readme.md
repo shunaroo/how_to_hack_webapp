@@ -146,6 +146,10 @@ steghide extract -sf ./<file to extract>.jpg
 
 ## zip crack
 ```
+./zip2john name.zip > hash.txt
+./john hash.txt
+
+
 fcrackzip -b --method 2 -D -p /usr/share/wordlists/rockyou.txt ./file.zip
 ```
 
