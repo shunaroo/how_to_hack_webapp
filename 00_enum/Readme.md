@@ -12,6 +12,13 @@ salt:new passwd:123
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
 
+# binwalk
+```
+binwalk target
+binwalk e target
+
+```
+
 # smb
 ```
 smbmap
