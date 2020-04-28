@@ -173,6 +173,11 @@ mount ip:/file/path /local/file/path
 
 ```
 
+## tty
+```
+python -c 'import pty; pty.spawn("/bin/bash")'
+```
+
 ## hash
 ```
 md5sum data.txt
