@@ -11,6 +11,11 @@ salt:new passwd:123
 
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
+## grep
+```
+grep -R .
+```
+
 
 # binwalk
 ```
