@@ -37,6 +37,9 @@ smbmap
 ```
 python /usr/share/john/ssh2john.py id_rsa > id_rsa.hash
 $ /usr/sbin/john --wordlist=/root/Desktop/dict/rockyou.txt id_rsa.hash
+
+tonnel
+ssh -L 10000:localhost:10000 <username>@<ip>
 ```
 ## openSSL
 ```
