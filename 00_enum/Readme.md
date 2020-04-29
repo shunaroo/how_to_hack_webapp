@@ -16,6 +16,10 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 grep -R .
 ```
 
+## show socket
+```
+ss -tulpn 
+```
 
 # binwalk
 ```
