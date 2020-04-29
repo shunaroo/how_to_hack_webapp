@@ -20,7 +20,7 @@ grep -R .
 # binwalk
 ```
 binwalk target
-binwalk e target
+binwalk -e target
 
 ```
 
