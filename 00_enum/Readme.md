@@ -16,6 +16,12 @@ new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 grep -R .
 ```
 
+## fix file
+```
+https://www.garykessler.net/library/file_sigs.html
+hexeditor
+```
+
 ## show socket
 ```
 ss -tulpn 
