@@ -36,7 +36,8 @@ binwalk -e target
 
 # smb
 ```
-smbmap
+enum
+smbmap -H target
 ```
 
 # ssh
