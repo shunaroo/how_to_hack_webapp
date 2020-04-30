@@ -225,6 +225,9 @@ analyze
 aa
 view
 pdf @main
+
+gdb
+disas main
 ```
 
 ## reverse shell
