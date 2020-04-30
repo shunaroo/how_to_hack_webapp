@@ -170,6 +170,12 @@ nikto -h host:port
 
 ```
 
+## ssl
+```
+openssl enc -in encrypted.txt -out binarytext -d -a && openssl rsautl -decrypt -in binarytext -out decrepted.txt -inkey encrypted.key && cat decrepted.txt
+```
+
+
 ## steg
 ```
 steghide extract -sf ./<file to extract>.jpg
