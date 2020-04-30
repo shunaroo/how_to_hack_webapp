@@ -38,6 +38,11 @@ binwalk -e target
 ```
 enum
 smbmap -H target
+
+smbclient //ip/anonymous
+ ls
+ cd
+ get
 ```
 
 # ssh
