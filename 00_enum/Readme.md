@@ -242,11 +242,21 @@ curl advent-bucket-one.s3.amazonaws.com | xmllint --format -
 ```
 r2 -d file-name
 
-analyze
-aa
-view
+aaa
+afl
 pdf @main
 
+//breakpoint
+db address
+
+//debug
+dc
+//move next
+ds
+//list register
+dr 
+//show memory
+px @rbp-04x
 
 cmpl var_8h, %eax
 jge 0x5576866b6629
