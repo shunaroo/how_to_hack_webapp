@@ -192,6 +192,14 @@ for png
 gem install zsteg
 zsteg file
 
+for all
+apt-get install python3-pip -y
+pip3 install stegoveritas 
+stegoveritas_install_deps
+
+stegoveritas -steghide file
+stegoveritas -exif　file
+
 ```
 
 ## zip crack
