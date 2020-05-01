@@ -184,7 +184,14 @@ openssl enc -in encrypted.txt -out binarytext -d -a && openssl rsautl -decrypt -
 
 ## steg
 ```
+for jpeg
+sudo apt install steghide -y
 steghide extract -sf ./<file to extract>.jpg
+
+for png
+gem install zsteg
+zsteg file
+
 ```
 
 ## zip crack
