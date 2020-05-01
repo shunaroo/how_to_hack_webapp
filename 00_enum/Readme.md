@@ -247,6 +247,11 @@ aa
 view
 pdf @main
 
+
+cmpl var_8h, %eax
+jge 0x5576866b6629
+%eax >= var_8h
+
 gdb
 disas main
 ```
