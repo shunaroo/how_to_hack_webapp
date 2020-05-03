@@ -11,6 +11,17 @@ salt:new passwd:123
 
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
+
+## subdomain
+```
+https://dnsdumpster.com/
+
+https://github.com/aboul3la/Sublist3r.git
+pip3 install -r requirements.txt
+pip3
+python3 sublist3r.py -d target -o sub-output.txt
+```
+
 ## grep
 ```
 grep -R .
