@@ -42,6 +42,7 @@ ss -tulpn
 ```
 binwalk target
 binwalk -e target
+binwalk --dd '.*' target
 
 ```
 
