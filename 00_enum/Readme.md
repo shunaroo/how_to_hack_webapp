@@ -258,6 +258,10 @@ aaa
 afl
 pdf @main
 
+//info
+izz
+
+
 //breakpoint
 db address
 
