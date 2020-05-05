@@ -3,6 +3,12 @@
 find / -perm -u=s -type f 2>/dev/null
 find / -user root -perm -4000 -exec ls -ldb {} \;
 ```
+
+## find bin
+```
+find / -perm +6000 2>/dev/null | grep '/bin/'
+```
+
 ## Create Salt Passwd
 ```
 openssl passwd -1 -salt [salt] [password]
