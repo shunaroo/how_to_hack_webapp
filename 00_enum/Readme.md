@@ -322,6 +322,9 @@ https://github.com/saleemrashid/sudo-cve-2019-18634/blob/master/exploit.c
 cat .bash_history
 
 find foo -exec whoami \;
+
+//banner
+/etc/update-motd.d/
 ```
 
 ## useful links
