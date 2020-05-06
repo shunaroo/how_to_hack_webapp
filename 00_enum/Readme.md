@@ -206,6 +206,11 @@ nikto -h host:port
 openssl enc -in encrypted.txt -out binarytext -d -a && openssl rsautl -decrypt -in binarytext -out decrepted.txt -inkey encrypted.key && cat decrepted.txt
 ```
 
+# gather linux
+```
+enum4linux [options] ip"
+```
+
 
 ## steg
 ```
