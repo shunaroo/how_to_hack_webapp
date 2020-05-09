@@ -60,6 +60,9 @@ binwalk target
 binwalk -e target
 binwalk --dd '.*' target
 
+if file size 0, it may need zip crack
+
+7za e
 ```
 
 # smb
