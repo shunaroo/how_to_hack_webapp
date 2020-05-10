@@ -11,6 +11,11 @@ find . -exec touch test.txt \;
 find . -exec chmod -R 777 /root \;
 ```
 
+## subdomain
+```
+wfuzz -c -f sub-fighter -w subdomains-top1million-5000.txt -u "http://cmess.thm" -H "Host: FUZZ.cmess.thm" --hw 290
+https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/DNS/subdomains-top1million-5000.txt
+```
 
 ## Create Salt Passwd
 ```
