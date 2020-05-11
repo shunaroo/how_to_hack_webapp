@@ -363,6 +363,9 @@ find foo -exec whoami \;
 
 //banner
 /etc/update-motd.d/
+
+space
+${IFS}
 ```
 
 ## useful links
