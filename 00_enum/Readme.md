@@ -1,3 +1,11 @@
+## process monitoring
+```
+https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
+chmod +x ./pspy64
+./pspy64
+
+```
+
 ## Finding SUID etc
 ```
 find / -perm -u=s -type f 2>/dev/null
