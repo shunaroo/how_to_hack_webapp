@@ -1,6 +1,6 @@
 # SSTI
-```
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/Server%20Side%20Template%20Injection#basic-injection
+```
 {{2+2}}
 
 readfile
@@ -30,6 +30,7 @@ xsrfprobe -u <url>/<endpoint>
 
 # JWT
 https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/JSON%20Web%20Token
+
 https://jwt.io/
 ```
 header.payload.secret
@@ -37,11 +38,13 @@ base64encoded
 
 RS256 :hard
 HS256:may easy 
-none:may easy 
+none:may easy eyJ0eXAiOiJKV1QiLCJhbGciOiJub25lIn0
 
 
-cat pub_file | xxd -p | tr -d "\\n"
-
+jwt-cracker eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.it4Lj1WEPkrhRo9a2-XHMGtYburgHbdS5s7Iuc1YKOE abcdefghijklmnopqrstuvwxyz 4
 
 
 ```
+
+# xxe
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/XXE%20Injection#classic-xxe
