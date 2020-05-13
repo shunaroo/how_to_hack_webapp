@@ -21,3 +21,27 @@ python2 -m pip
 tplmap -u http://10.10.10.10:5000/ -d 'noot' --os-cmd =cat /etc/passwd
 
 ```
+# CSRF 
+```
+xsrfprobe
+pip install xsrfprobe
+xsrfprobe -u <url>/<endpoint>
+```
+
+# JWT
+https://github.com/swisskyrepo/PayloadsAllTheThings/tree/master/JSON%20Web%20Token
+https://jwt.io/
+```
+header.payload.secret
+base64encoded
+
+RS256 :hard
+HS256:may easy 
+none:may easy 
+
+
+cat pub_file | xxd -p | tr -d "\\n"
+
+
+
+```
