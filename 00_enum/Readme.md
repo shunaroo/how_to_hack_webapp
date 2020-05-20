@@ -6,11 +6,13 @@ chmod +x ./pspy64
 
 ```
 
-## Finding SUID etc
+## Finding SUID/SGID etc
 ```
 find / -perm -u=s -type f 2>/dev/null
 find / -user root -perm -4000 -exec ls -ldb {} \;
 find / -perm +6000 2>/dev/null | grep '/bin/'
+
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 ```
 
 ## find has SUID
