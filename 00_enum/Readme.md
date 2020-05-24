@@ -1,3 +1,8 @@
+## jooma
+```
+apt-get install joomscan
+```
+
 ## process monitoring
 ```
 https://github.com/DominicBreuker/pspy/releases/download/v1.2.0/pspy64
