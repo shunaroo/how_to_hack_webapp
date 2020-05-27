@@ -126,6 +126,12 @@ gpg -c data.txt
 
 decrypt
 gpg -d data.txt.gpg
+
+password hash crack
+gpg2john private.asc >hash
+john hash
+gpg --import private.asc
+gpg --decrypt backup.pgp
 ```
 
 ## scp
