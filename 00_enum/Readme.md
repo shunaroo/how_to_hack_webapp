@@ -439,6 +439,10 @@ space
 ${IFS}
 ```
 
+## phis
+- https://gitlab.com/an0nud4y/HiddenEye
+- https://bitly.com/
+
 ## useful links
 GTFOBins  : unix binaries list
 - https://gtfobins.github.io/#
